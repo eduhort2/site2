@@ -1,0 +1,68 @@
+:root {
+    --cor-fundo: #303030;
+    --cor-principal: #242323;
+    --cor-secundaria: #212333;
+    --cor-destaque: #ff9100;
+    --cor-texto: #ffffff;
+}
+
+body {
+    background-image: url('image.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: var(--cor-texto); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.caixa-principal {
+    background-image: url('funfo.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    border-radius: 0; 
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+button {
+    background-image: url('botão.png'); 
+    background-size: cover; 
+    background-position: center; 
+    border: none;
+    border-radius: 0; 
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+
+.iniciar-btn {
+    background-color: #0b0d2000; 
+    color: #D7F9FF; 
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.iniciar-btn:hover {
+    background-color: #ffa60000; 
+    color: #0b0d2000;
+}
